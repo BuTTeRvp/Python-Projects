@@ -4,11 +4,11 @@
 # In[3]:
 
 
-#This function should add ALL the INTEGERS present in any kind of list/tuple, will ignore 2d(nested) objects and floats.
+#This function should add ALL the numbers present in any kind of list/tuple, will ignore 2d(nested) objects.
 def list_sum(list):                 
     x = 0
     for i in list:
-        if type(i) is int :
+        if isinstance(i, (int, float)) :
              x = x + i
     return x
 
