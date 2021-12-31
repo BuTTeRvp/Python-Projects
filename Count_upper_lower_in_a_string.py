@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[1]:
-
+# This Function (count_case) counts the number for lower and upper case characters present in a string. And stores the value in d{}.
 
 def count_case(s):
     d = {"Uppercase characters": 0, "Lowercase characters": 0 } # dict. to store the counts 
