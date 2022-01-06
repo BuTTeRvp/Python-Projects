@@ -17,4 +17,4 @@ def int_str(x):
 x = int_str(l1_r)
 y = int_str(l2_r)
 z = str(x + y)
-print(list(map(lambda x : int(x), z)))
+print(list(map(lambda x : int(x), z[::-1])))
